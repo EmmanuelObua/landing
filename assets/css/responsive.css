@@ -1,0 +1,511 @@
+@media (max-width: 768px) {
+	/* Call to action buttons */
+
+	/* .btn {
+	margin-top: 1rem;
+	} */
+
+	.cta-contact {
+		display: none;
+	}
+
+	.page-footer {
+		text-align: center;
+	}
+}
+
+@media (max-width: 576px) {
+	/* Call to action buttons */
+
+	p {
+		font-size: 1rem !important;
+	}
+
+	html {
+		margin-left: 1.5rem !important;
+		margin-right: 1.5rem !important;
+	}
+
+	h2 {
+		font-size: 1.8rem !important;
+	}
+
+	section {
+
+		content-visibility: auto;
+		-webkit-content-visibility: auto;
+		contain-intrinsic-size: 0 500px;
+
+		padding-left: 15px;
+		padding-right: 15px;
+
+	}
+
+	.cta-contact {
+		display: none;
+	}
+
+	.nav-link {
+		padding-top: 1rem;
+	}
+
+	.navbar-collapse.show {
+		background: var(--background-dark-primary);
+		padding-left: 1rem;
+	}
+
+	#hero .ellipse {
+		left: -70%;
+		right: 0%;
+		top: 60%;
+		width: auto;
+		height: 15rem;
+		opacity: 0.7;
+	}
+
+	#features .ellipse {
+		left: 0%;
+		right: 0%;
+		top: 290%;
+		width: auto;
+		height: 15rem;
+		opacity: 0.7;
+	}
+
+	#api-snippet .ellipse {
+		left: 0%;
+		right: 0%;
+		top: 540%;
+		width: auto;
+		height: 15rem;
+		opacity: 0.5;
+	}
+
+	#use-case .ellipse {
+		left: 0%;
+		right: 0%;
+		top: 600%;
+		width: auto;
+		height: 25rem;
+		opacity: 0.3;
+	}
+
+	#hero {
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	#hero h1 {
+		font-weight: 600;
+		text-align: left;
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+	}
+
+	#hero p {
+		text-align: left;
+		font-size: 1rem;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	.cta {
+		margin-bottom: 4rem;
+	}
+
+	#about {
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	#about h2 {
+		font-weight: 600;
+		text-align: left;
+		line-height: 2.5rem;
+		margin-top: 1rem;
+		text-align: center;
+	}
+
+	#about h3 {
+		text-align: center;
+	}
+
+	#about p {
+		text-align: center !important;
+	}
+
+	/* #about .card {
+	margin-right: 1.5rem !important;
+	margin-left: 1.5rem !important;
+	} */
+
+	#features {
+		padding-top: 1rem;
+		padding-bottom: 5rem;
+	}
+
+	#features h2 {
+		text-align: left;
+	}
+
+	#features h3 {
+		font-weight: 600;
+		text-align: left;
+		font-size: 2.2rem;
+		line-height: 2.5rem;
+	}
+
+	#features p {
+		text-align: left;
+	}
+
+	.icons {
+		text-align: center !important;
+	}
+
+	#features .icons {
+		text-align: left !important;
+	}
+
+	#features .yellow-phone {
+		height: 20rem;
+	}
+
+	#features .yellow-phone img {
+		top: 40%;
+		left: -52% !important;
+		position: absolute !important;
+		display: block !important;		
+		margin-top: 20%;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	#features .green-card {
+		overflow: hidden;
+	}
+
+	#features .green-card-image {
+		bottom: 5%;
+	}
+
+	#features .green-card-image img {
+		width: 20rem;
+		height: auto;
+	}
+
+	/*#features .color-cols {
+		padding-right: 1.5rem !important;
+		padding-left: 1.5rem !important;
+		}*/ 
+
+	/*#features .left-col {
+		padding-top: 0rem;
+	padding-bottom: 0rem;
+	padding-left: 2rem !important;
+	padding-right: 2rem !important;
+	} */
+
+	#api-snippet {
+		margin-bottom: -12%;
+	}
+  
+	#api-snippet h2 {
+		font-weight: 600;
+		text-align: left !important;
+		line-height: 2.5rem;
+		text-align: center;
+	}
+
+	#api-snippet p {
+		text-align: left;
+	}
+
+	.image-box-code {
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		white-space: nowrap;
+		margin-top: 20%;
+	}
+
+	.image-box-code img {
+
+		position: absolute;
+		object-fit: contain;
+		height: auto;
+		width: 25rem;
+		transform: scale(1.4);
+
+	}
+
+	#use-case h2 {
+		text-align: left;
+	}
+
+	#use-case .icons {
+		text-align: left !important;
+	}
+
+	#use-case p {
+		text-align: left;
+	}
+
+	#use-case .green-card {
+		height: 30rem;
+		overflow: hidden;
+	}
+
+	#use-case .green-card .card-title {
+		margin-top: 2rem;
+	}
+
+	#use-case .green-card img {
+		height: 15rem;
+	}
+
+	#use-case .green-card .card-body {
+		margin-top: -7rem;
+	}
+
+	#contact h2,
+	#contact p {
+		text-align: center;
+	}
+
+	#contact .cta {
+		text-align: center !important;
+	}
+
+	#button-head {
+		text-align: center;
+	}
+
+	.page-footer {
+		text-align: left;
+	}
+
+	.row:before, .row:after {display: none !important;}
+
+}
+
+
+/*Phone screens*/
+
+/* ----------- iPhone 12 Max ----------- */
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 428px) 
+and (max-device-height: 926px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+	#features .yellow-phone {
+		height: 22rem;
+	}
+
+	#features .yellow-phone img {
+		top: 19% !important;
+		left: -40% !important;
+		transform: scale(0.9,0.9);
+		-ms-transform: scale(0.9, 0.9);
+		-webkit-transform: scale(0.9, 0.9);
+	}
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+@media only screen 
+and (device-width: 320px) 
+and (device-height: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+	#features .yellow-phone {
+		height: 22rem !important;
+	}
+
+	#features .yellow-phone img {
+		top: 30% !important;
+		left: -68% !important;
+		transform: scale(0.9, 0.9);
+		-ms-transform: scale(0.9, 0.9);
+		-webkit-transform: scale(0.9, 0.9);
+	}
+
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen 
+and (device-width: 375px) 
+and (device-height: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+	#features .yellow-phone {
+		height: 22rem !important;
+	}
+
+	#features .yellow-phone img {
+		top: 27% !important;
+		margin-left: -5% !important;
+		transform: scale(0.9,0.9);
+		-ms-transform: scale(0.9, 0.9);
+		-webkit-transform: scale(0.9, 0.9);
+	}
+
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+/* Portrait */
+@media only screen 
+and (device-width: 414px) 
+and (device-height: 736px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+	#features .yellow-phone {
+		height: 22rem !important;
+	}
+
+	#features .yellow-phone img {
+		top: 19% !important;
+		margin-left: 8% !important;
+		transform: scale(0.9,0.9);
+		-ms-transform: scale(0.9, 0.9);
+		-webkit-transform: scale(0.9, 0.9);
+	}
+
+}
+
+/* ----------- iPhone X ----------- */
+
+
+/* Portrait */
+@media only screen 
+and (device-width: 375px) 
+and (device-height: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+	#features .yellow-phone {
+		height: 22rem !important;
+	}
+
+	#features .yellow-phone img {
+		top: 27% !important;
+		margin-left: -4% !important;
+		transform: scale(0.9,0.9);
+		-ms-transform: scale(0.9, 0.9);
+		-webkit-transform: scale(0.9, 0.9);
+	}
+
+}
+
+
+/* ----------- Nexus 5X ----------- */
+
+
+/* Portrait */
+@media only screen 
+and (device-width: 412px) 
+and (device-height: 732px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+	#features .yellow-phone {
+		height: 22rem !important;
+	}
+
+	#features .yellow-phone img {
+		top: 19% !important;
+		margin-left: 7.5% !important;
+		transform: scale(0.9,0.9);
+		-ms-transform: scale(0.9, 0.9);
+		-webkit-transform: scale(0.9, 0.9);
+	}
+
+}
+
+/* ----------- Galaxy 5X ----------- */
+
+
+/* Portrait */
+@media only screen 
+and (device-width: 360px) 
+and (device-height: 640px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+	#features .yellow-phone {
+		height: 22rem !important;
+	}
+
+	#features .yellow-phone img {
+		top: 28% !important;
+		left: -62% !important;
+		transform: scale(0.9,0.9);
+		-ms-transform: scale(0.9, 0.9);
+		-webkit-transform: scale(0.9, 0.9);
+	}
+
+}
+
+/* ----------- Pixel 2 ----------- */
+
+
+/* Portrait */
+@media only screen 
+and (device-width: 411px) 
+and (device-height: 731px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+	#features .yellow-phone {
+		height: 22rem !important;
+	}
+
+	#features .yellow-phone img {
+		top: 19% !important;
+		margin-left: 7% !important;
+		transform: scale(0.9,0.9);
+		-ms-transform: scale(0.9, 0.9);
+		-webkit-transform: scale(0.9, 0.9);
+	}
+
+}
+
+/* ----------- Pixel 2 XL ----------- */
+
+
+/* Portrait */
+@media only screen 
+and (device-width: 411px) 
+and (device-height: 823px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+	#features .yellow-phone {
+		height: 22rem !important;
+	}
+
+	#features .yellow-phone img {
+		top:19% !important;
+		margin-left: 6% !important;
+		transform: scale(0.9,0.9);
+		-ms-transform: scale(0.9, 0.9);
+		-webkit-transform: scale(0.9, 0.9);
+	}
+
+}
+
